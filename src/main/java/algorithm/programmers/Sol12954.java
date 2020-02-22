@@ -1,4 +1,5 @@
 package algorithm.programmers;
+
 //x만큼 간격이 있는 n개의 숫자
 public class Sol12954 {
     public static void main(String[] args) {
