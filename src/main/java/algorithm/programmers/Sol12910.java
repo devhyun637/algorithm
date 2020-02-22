@@ -32,6 +32,8 @@ public class Sol12910 {
         return answer;
     }
 }
+
+//중급버전
 //    public static void main(String[] args) {
 //        int[] arr = {2, 36, 1, 3};
 //        int divisor = 1;
