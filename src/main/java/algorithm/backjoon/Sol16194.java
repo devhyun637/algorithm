@@ -2,7 +2,7 @@ package algorithm.backjoon;
 
 import java.util.Scanner;
 
-public class Sol19164 {
+public class Sol16194 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int card = sc.nextInt() + 1;
