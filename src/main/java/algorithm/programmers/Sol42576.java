@@ -10,19 +10,14 @@ public class Sol42576 {
     }
 
     public static String solution(String[] participant, String[] completion) {
-        String answer = "";
-
         Arrays.sort(participant);
         Arrays.sort(completion);
 
-        for (int i=0 ; i<completion.length; i++) {
-            if (!completion[i].equals(participant[i])) {
-                answer = participant[i];
-                break;
-            }
-        }
+        String answer = participant[participant.length - 1];
 
-        if (answer == "") answer = participant[participant.length-1];
+        for(int i=0; i<completion.length; i++){
+            if(!participant[i].equals(completion[i])) return participant[i];
+        }
 
         return answer;
     }
