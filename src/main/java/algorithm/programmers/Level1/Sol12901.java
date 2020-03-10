@@ -1,5 +1,6 @@
-package algorithm.programmers;
+package algorithm.programmers.Level1;
 
+//2016년
 public class Sol12901 {
     public static void main(String[] args) {
         Solution sol = new Solution();
@@ -16,7 +17,7 @@ public class Sol12901 {
             for (int i = 0; i < a - 1; i++) {
                 b += month[i];
             }
-            System.out.println(b);
+
             return week[b % 7];
         }
     }
