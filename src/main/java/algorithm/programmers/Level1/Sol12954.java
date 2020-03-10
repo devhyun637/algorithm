@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.Level1;
 
 //x만큼 간격이 있는 n개의 숫자
 public class Sol12954 {
