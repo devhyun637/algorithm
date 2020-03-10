@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.Level2;
 
 import java.util.Stack;
 
