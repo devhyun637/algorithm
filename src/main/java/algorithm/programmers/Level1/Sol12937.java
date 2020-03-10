@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.Level1;
 
 //짝수와 홀수
 public class Sol12937 {
