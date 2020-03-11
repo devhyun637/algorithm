@@ -1,5 +1,6 @@
-package algorithm.programmers;
+package algorithm.programmers.Level1;
 
+//하샤드
 public class Sol12947 {
     public static void main(String[] args) {
         System.out.println(solution(12));
@@ -10,12 +11,12 @@ public class Sol12947 {
         int sum = 0;
 
         while (num > 0) {
-            sum += (num % 10);
-            num = num / 10;
+           sum += num % 10;
+           num = num / 10;
         }
+        System.out.println(sum);
+        System.out.println(x);
 
-        boolean answer = x % sum == 0;
-
-        return answer;
+        return x % sum == 0;
     }
 }
