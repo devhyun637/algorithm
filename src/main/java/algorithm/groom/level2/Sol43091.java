@@ -1,4 +1,4 @@
-package algorithm.groom;
+package algorithm.groom.level2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
