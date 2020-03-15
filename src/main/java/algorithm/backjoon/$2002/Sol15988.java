@@ -18,11 +18,11 @@ public class Sol15988 {
 
     public static long plusCount(int number) {
         long[] num = new long[1999999];
-        num[0] = 1;
         num[1] = 1;
         num[2] = 2;
+        num[3] = 4;
 
-        for (int i = 3; i <= number; i++) {
+        for (int i = 4; i <= number; i++) {
             num[i] = (num[i - 1] + num[i - 2] + num[i - 3]) % 1000000009;
         }
 
