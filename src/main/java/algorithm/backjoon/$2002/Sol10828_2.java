@@ -1,4 +1,4 @@
-package algorithm.backjoon;
+package algorithm.backjoon.$2002;
 
 /* 스택구현하기 - 라이브러리 사용
 push X: 정수 X를 스택에 넣는 연산이다.

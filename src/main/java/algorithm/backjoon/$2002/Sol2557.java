@@ -1,4 +1,4 @@
-package algorithm.backjoon;
+package algorithm.backjoon.$2002;
 
 public class Sol2557 {
     public static void main(String[] args) {

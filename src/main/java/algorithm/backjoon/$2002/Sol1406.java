@@ -1,4 +1,4 @@
-package algorithm.backjoon;
+package algorithm.backjoon.$2002;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
