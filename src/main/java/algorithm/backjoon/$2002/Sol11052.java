@@ -8,7 +8,7 @@ public class Sol11052 {
         Scanner sc = new Scanner(System.in);
         int card = sc.nextInt() + 1;
         int[] price = new int[card];
-        price[0] = 0;
+
         for (int i = 1; i < card; i++) {
             price[i] = sc.nextInt();
         }
