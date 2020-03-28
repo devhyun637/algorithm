@@ -24,9 +24,8 @@ public class Sol6588 {
 
             for (int i = 2; i <= num; i++) {
                 if (!isPrime[i] && !isPrime[num - i]) {
-                    int a = i;
                     int b = num - i;
-                    System.out.println(num + " = " + a + " + " + b);
+                    System.out.println(num + " = " + i + " + " + b);
                     break;
                 }
                 if (i == num) System.out.println("Goldbach's conjecture is wrong.");
