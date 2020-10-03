@@ -16,10 +16,11 @@ public class Sol42885 {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
         Arrays.sort(people);
-        for (int i : people) arrayList.add(i);
+        for (int i : people) {
+            arrayList.add(i);
+        }
 
         while (arrayList.size() > 1) {
-
             if (arrayList.get(arrayList.size() - 1) + arrayList.get(0) <= limit) {
                 arrayList.remove(0);
             }
@@ -27,7 +28,10 @@ public class Sol42885 {
             answer++;
         }
 
-        if (arrayList.size() != 0) answer++;
+        if (arrayList.size() != 0) {
+            answer++;
+        }
         return answer;
     }
 }
+
